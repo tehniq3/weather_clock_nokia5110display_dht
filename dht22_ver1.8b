@@ -245,8 +245,9 @@ void loop () {
    display.setTextColor(BLACK);
    display.setCursor(50,15);
    display.print("o");
-display.setCursor(40,34);
+display.setCursor(42,34);
 display.print(",");
+display.setCursor(52,34);
 display.print(tv);
       display.display();
    }
